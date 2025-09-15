@@ -2,9 +2,6 @@
 
 **DA-Mamba: Dialogue-Aware Selective State-Space Model for Multimodal Engagement Estimation**
 
-> 作者：Shenwei Kang, Xin Zhang, Wen Liu, Bin Li, Yujie Liu, Bo Gao  
-> 代码仓库（占位）：https://github.com/MMEA/DA-Mamba
-
 ---
 
 ## 简介
@@ -105,19 +102,8 @@ DA-Mamba 是一种面向对话的多模态模型，旨在进行**会话场景下
 
 ---
 
-## 结论（简短）
-DA-Mamba 在 CCC 上超过了先前的最优方案，并在峰值显存上实现显著减少（论文中报告最高约 39% 的下降），同时支持在更长序列上训练。该方法在多方会话场景中表现出良好的泛化能力，是一种适合实时、资源受限场景的可扩展参与度估计方案。
 
----
 
-## 复现与代码
-仓库（占位）：`https://github.com/MMEA/DA-Mamba` —— 论文中表示源码将开源。  
-复现建议：
-1. 准备预提取的模态特征（Ege, W2v, CLIP, OF, OF2），并插值到 100 Hz。  
-2. 使用论文中的窗口与训练超参（见训练设置）复现结果。  
-3. 建议先复现 NoXi Base，再扩展到 NoXi-Add 与 MPIIGI。
-
----
 
 ## 引用
 如果你使用了 DA-Mamba，请引用论文（参考 bib 条目写入 `refs.bib`）：
